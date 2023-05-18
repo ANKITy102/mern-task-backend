@@ -14,7 +14,7 @@ const app = express();
 //     console.log()
 // }
 app.use(cors({
-    origin: ["http://localhost:3000","https://mern-task-app.onrender.com" ] //specify which url you want to accept if you want all the website to access your backend then just us app.use(cors())
+    origin: ["http://localhost:3000","https://mern-app-task-frontend.onrender.com" ] //specify which url you want to accept if you want all the website to access your backend then just us app.use(cors())
 }))
 app.use(express.json()); // so we can send json data to backend
 app.use(express.urlencoded({ extended: false }));//this is used so that we send url-form data to backend
